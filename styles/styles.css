@@ -1,6 +1,66 @@
 @charset "UTF-8";
 /* main fortfolio styles */
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Body Style*/
+body {
+	font-size: 18px;
+	background-color: #DCDCDC;
+}
+/*Navigation style*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #888787;
+	
+	
+	
+}
+ul {
+	border-top-left-radius: 25px
+   
+}
+ul {
+	border-top-right-radius: 25px
+}
+li {
+    float: left;
+	position: sticky;
+	top: 0;
+}
+
+li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+	background-color: #9A9A9A;
+}
+
+/*Billeder*/
+.selfie {
+	width: 300px;
+	height: auto;
+	margin-left: 660px;
+	
+}
+img {
+	border: 1px solid #010101;
+	
+}
+/*section*/
+.section {
+	background-color: #9A9A9A;
+}
+.home_h2 {
+	font-size: 45px;
+	text-align: center;
 }
