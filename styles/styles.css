@@ -5,14 +5,12 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-/*Body Style*/
 body {
 	font-size: 18px;
 	background-color: #DCDCDC;
 }
-/*Navigation style*/
 ul {
-    list-style-type: none;
+	list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -45,22 +43,66 @@ li a:hover {
 	background-color: #9A9A9A;
 }
 
-/*Billeder*/
 .selfie {
 	width: 300px;
 	height: auto;
 	margin-left: 660px;
+	transform: rotate(270deg);
 	
 }
+
 img {
 	border: 1px solid #010101;
+	border-radius: 8px;
 	
 }
-/*section*/
+
 .section {
 	background-color: #9A9A9A;
+	padding-top: 1px;
+	padding-bottom: 1px;
 }
-.home_h2 {
-	font-size: 45px;
+.projekter {
+	background-color: #9A9A9A;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.om_mig {
+	background-color: #9A9A9A;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+.kontakt {
+	background-color: #9A9A9A;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+h2 {
+	font-size: 40px;
 	text-align: center;
+}
+p {
+
+}
+img.selfie {
+	display: block;
+
+}
+footer {
+	display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+footer {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #888787;
+}
+footer {
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
 }
